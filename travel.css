@@ -298,21 +298,18 @@ margin-bottom: 70px;
 .discount-section-all-img{
   height: 1600px;
   width: 1200px;
-  border: 3px solid red;
- 
+  
 }
 .discount-row{
 display: flex;
-border: 2px solid red;
-margin-bottom: 24px;
+ margin-bottom: 24px;
 }
 .discount-card{
   height: 100px;
   width: 200px;
   position: relative;
    background-color: #ffffffc3;
-  border: 2px solid red;
-  bottom: 300px;
+   bottom: 300px;
 left: 600px;
 }
 .discount-section-2{
@@ -623,8 +620,7 @@ width: 300px;
   .discount-section-all-img {
     height: 350px;
     width: 300px;
-    border: 3px solid red;
-}
+ }
   .discount-row{
     height: 100px;
     width: 200px;
