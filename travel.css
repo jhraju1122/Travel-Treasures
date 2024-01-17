@@ -523,6 +523,9 @@ h3{
      flex-direction: column;
     grid-template-columns: repeat(1, 1fr);
    }
+   .input-item {
+    width: 192px;
+}
 
    .input-item, {
     flex-direction: column;
@@ -602,6 +605,20 @@ padding: 100px ;
 height: 100px;
 width: 300px;
   }
+    /*---------------- our popular tours -------------------- */
+    .popular-tour-container {
+      margin-top: 358px;
+      max-width: 300px;
+      margin-left: 0;
+      display: flex;
+      justify-content: space-between;
+      height: 600px;
+      flex-direction: column;
+      margin-left: 102px;
+  }
+ 
+  
+
   /*---------------- deals and discount section -------------------- */
 
   .discount-section{
@@ -625,13 +642,23 @@ width: 300px;
     height: 100px;
     width: 200px;
   }
+/* destination  */
+  .destination-all-text {
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    margin-top: 527px;}
+    .popular-tour-container img{
+      display: none;
+    }
   /*-------------------- get lost section -------------------- */
   .get-lost-container {
-    display: flex;
+   flex-direction: column;
     margin-bottom: 100px;
     width: 100%;
     margin-top: 5px;
     flex-direction: column;
+    
 }
 .get-lost-video iframe{
   height: 350px;
@@ -650,14 +677,31 @@ width: 300px;
   width: 100%;
   margin-top: 5px;
   flex-direction: column;
+  
 }
 
 
 
    /*-------------- footer sectioin -------------- */
-  .footer-logo-section{
+  .footer-section{
+    height: 500px;
+    width: 400px;
+    /* margin-left: -10px; */
+    margin-right: 0;
+    background-color: #a89a9a;
+  
+  }
+   .footer-logo-section{
     flex-direction: column;
     grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+  .footer-logo-section h3{
+    
+      display: flex;
+      font-size: 30px;
+      margin-left: 90px;
+  
   }
   .footer-description{
     height: 50px;
@@ -665,6 +709,7 @@ width: 300px;
  margin-left: 0;
  margin-bottom: 300px;
  text-align: center;
+  padding-left: 111px;
   }
   
 }
